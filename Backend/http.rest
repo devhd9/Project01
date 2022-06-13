@@ -1,0 +1,13 @@
+####
+
+
+
+POST  http://localhost:4000/register HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Het",
+    "email":"h1@h.com",
+    "phoneNumber":"123",
+    "password":"pass"
+}
